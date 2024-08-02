@@ -460,12 +460,13 @@ color: #ECF0E8;
 
 
 
-/* image 4 */
+/* Main Page Image */
+#homePageImage {
+  position: absolute;
+  width: 800px;
+  height: 360px;
+  left: 320px;
+  top: 320px;
 
-position: absolute;
-width: 800px;
-height: 360px;
-left: 320px;
-top: 320px;
-
-background: url(image.png);
+  background: url(image.png);
+}
