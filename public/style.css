@@ -263,37 +263,37 @@ transform: rotate(-146.31deg);
 
 
 /* Search Chip */
+searchChip{
+  position: absolute;
+  width: 88px;
+  height: 40px;
+  right: 702px;
+  bottom: 184px;
 
-position: absolute;
-width: 88px;
-height: 40px;
-right: 702px;
-bottom: 184px;
-
-background: #426B1F;
-border-radius: 20px;
-
+  background: #426B1F;
+  border-radius: 20px;
+}
 
 /* Search */
+#searchBar{
+  position: absolute;
+  width: 55px;
+  height: 21px;
+  left: calc(50% - 55px/2 + 0.5px);
+  top: calc(50% - 21px/2);
 
-position: absolute;
-width: 55px;
-height: 21px;
-left: calc(50% - 55px/2 + 0.5px);
-top: calc(50% - 21px/2);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 130%;
-/* identical to box height, or 21px */
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-
+  color: #FFFFFF;
+}
 
 
 /* Navigation */
