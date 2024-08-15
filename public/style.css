@@ -94,7 +94,94 @@ ul {
 }
 
 /* Search Recipe */
+<<<<<<< HEAD
 .searchBarDiaglogue {
+=======
+
+position: absolute;
+width: 90px;
+height: 17px;
+left: calc(50% - 90px/2);
+top: calc(50% - 17px/2);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 130%;
+/* identical to box height, or 17px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #8D7777;
+
+
+
+/* Ellipse 279 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 10px;
+height: 10px;
+left: 8px;
+top: 5px;
+
+background: #D9D9D9;
+border: 2px solid #000000;
+
+
+/* Line 1 */
+
+position: absolute;
+width: 17.33px;
+height: 0.75px;
+left: 30.42px;
+top: 21.05px;
+
+background: #D9D9D9;
+border: 2px solid #000000;
+transform: rotate(-146.31deg);
+
+
+/* Search Chip */
+searchChip{
+  position: absolute;
+  width: 88px;
+  height: 40px;
+  right: 702px;
+  bottom: 184px;
+
+  background: #426B1F;
+  border-radius: 20px;
+}
+
+/* Search */
+#searchBar{
+  position: absolute;
+  width: 55px;
+  height: 21px;
+  left: calc(50% - 55px/2 + 0.5px);
+  top: calc(50% - 21px/2);
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+
+/* Navigation */
+#homeNavigation{
+>>>>>>> af27ce17f47ce60ba28ed2f9b8ce6c14c4520922
   position: absolute;
   width: 90px;
   height: 17px;
@@ -142,6 +229,19 @@ ul {
   left: 320px;
   top: 320px;
 
+<<<<<<< HEAD
   background: url(image.png);
 }
 
+=======
+/* Main Page Image */
+#homePageImage {
+  position: absolute;
+  width: 800px;
+  height: 360px;
+  left: 320px;
+  top: 320px;
+
+  background: url(image.png);
+}
+>>>>>>> af27ce17f47ce60ba28ed2f9b8ce6c14c4520922
