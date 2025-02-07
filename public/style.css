@@ -97,6 +97,7 @@ ul {
   box-sizing: border-box;
 
   position: absolute;
+  
   width: 526px;
   height: 30px;
   right: 482px;
@@ -106,10 +107,35 @@ ul {
   border: 1px solid #C2C2C2;
   border-radius: 20px;
 }
+/* Magnifying Glass Icon */
+.search-bar {
+  position: relative;
+  display: inline-block;
+  width: 120%;
+  
+}
+.search-bar input {
+  width: 100%; /* Make the input field take up the full width of the container */
+  padding: 10px 40px 10px 15px; /* Add padding for the icon and text */
+  border: 1px solid #ccc;
+  border-radius: 25px; /* Rounded borders */
+  font-size: 16px;
+  outline: none; /* Remove the default focus outline */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+.search-bar .fa-search {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  cursor: pointer;
+}
+
 
 /* Search Recipe */
 .searchBarDiaglogue {
-=======
+
 
   position: absolute;
   width: 90px;
@@ -128,7 +154,7 @@ ul {
   text-align: center;
 
 color: #8D7777;
-
+}
 
 
 /* Ellipse 279 */
@@ -210,4 +236,5 @@ transform: rotate(-146.31deg); */
 .mainPageImage {
   width: 100%;
   height: auto; 
+  padding-bottom: 50px;
 }
