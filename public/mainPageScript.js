@@ -1,11 +1,10 @@
+import Fuse from 'fuse.js'
 // async function searchBar() {
 
 //     fetch(apiKey)
 //     .then()
 
 // }
-
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
 
 /* API STUFF */
 // const apiKey = 'fec8b519f6944b899cdbe281372e48c2'
@@ -44,3 +43,4 @@ try {
 } catch (error) {
 	console.error(error);
 }
+const Fuse = require('fuse.js')
