@@ -1,0 +1,202 @@
+/*******************/
+/* Navigation Bar */
+/*******************/
+.main-title {
+  font-size: 40px;
+  float: left;
+
+  color: #ECF0E8;
+}
+
+/* Navigation */
+#homeNavigation{
+  position: absolute;
+  width: 90px;
+  height: 17px;
+  left: calc(50% - 90px/2);
+  top: calc(50% - 17px/2);
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 130%;
+  /* identical to box height, or 17px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #8D7777;
+  }
+
+ul {
+  overflow: hidden; /* Clear the float */
+  text-align: right; /* Center the navigation items */
+}
+
+/* Reset default margin and padding for ul */
+ul {
+  list-style-type: none;
+  /* margin: 0;
+  padding: 0; */
+}
+
+/* Style for navigation bar */
+nav {
+  background-color: #426B1F;;
+  padding: 10px;
+}
+
+/* Style for list items in the navigation bar */
+li {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 20px; /* Adjust as needed */
+}
+
+/* Style for links in the navigation bar */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+/* Change color on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/* Add this to your style.css file */
+
+.underlined {
+  border-bottom: 2px solid #000; /* Adjust the color and thickness as needed */
+}
+h1 { text-align: center;}
+h2 { text-align: center;}
+
+
+/*******************/
+/** Product Page **/
+/*******************/
+.productPage{
+position: relative;
+width: 100%;
+height: 100%;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+background: #FFFFFF;
+}
+
+/* Recipes */
+.recipeTitle {
+position: relative;
+width: 208px;
+height: 77px;
+right: 400px;
+bottom: 16px;
+/* Font */
+font-family: 'Newsreader';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 120%;
+/* Alignment */
+display: flex;
+align-items: flex-end;
+letter-spacing: -0.01em;
+
+margin-bottom: 0px;
+}
+
+.line-1 hr {
+  height: 1px;
+  width: 1000;
+  background: rgb(139, 129, 129);
+}
+
+
+/*******************/
+/* Search bar stuff*/
+/*******************/
+
+/* Search Bar Chip */
+.searchBarChip {
+  box-sizing: border-box;
+  
+  width: 526px;
+  height: 30px;
+  
+  background: #FFFFFF;
+  margin-top: 20px;
+  }
+/* Magnifying Glass Icon */
+.search-bar {
+position: relative;
+display: inline-block;
+width: 100%; /* Adjust as needed */
+max-width: 526px; /* Match the width of your search bar */
+margin-bottom: 20px; /* Space between search bar and image */
+}
+.search-bar input {
+width: 100%; /* Make the input field take up the full width of the container */
+padding: 10px 40px 10px 15px; /* Add padding for the icon and text */
+border: 1px solid #ccc;
+border-radius: 25px; /* Rounded borders */
+font-size: 16px;
+outline: none; /* Remove the default focus outline */
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+.search-bar .fa-search {
+position: absolute;
+right: 15px;
+top: 50%;
+transform: translateY(-50%);
+color: #888;
+cursor: pointer;
+}
+
+/* RecipeFinder */
+.homePageTitle {
+position: absolute;
+width: 180px;
+height: 32px;
+left: 96px;
+top: 41px;
+
+font-family: 'Newsreader';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 100%;
+/* identical to box height, or 32px */
+letter-spacing: -0.01em;
+
+color: #ECF0E8;
+}
+
+.searchContainer {
+/* Alignment */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh; /* Use viewport height for full-screen centering */
+text-align: center; /* Center text inside the container */
+
+}
+
+/* Main Page Image */
+
+.mainPageImage {
+/* width: 120%;
+height: auto;  */
+width: 1000px;
+height: 500px;
+
+padding-bottom: px;
+}
