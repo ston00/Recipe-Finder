@@ -6,8 +6,9 @@
         <title>Recipes</title>
 
         <!-- Link to external stylesheet -->
-        <link rel="stylesheet" href="css/home.css" />
-
+        <link rel="stylesheet" href="css/recipe.css" />
+        <!-- Font Awesome Library-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     </head>
 
     <body>
@@ -24,10 +25,48 @@
 
     <div class="productPage">   
         <!-- Main Title-->
-        <div class="recipeInfo">
-            <div class="recipe"></div>
-            <div class="recipe-2"></div>
-            <div class="recipe-2"></div>
+            <div class="filters-container"> 
+                <form action="/action_page.php">
+                    <select name="cuisine" id="cuisine">
+                    <option value="cuisine type">Cuisine Type</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                    </select>
+                    <br><br>
+                </form>
+
+                <form action="/action_page.php">
+                    <select name="dietary-restrictions" id="dietary-restrictions">
+                    <option value="dietary-restrictions"> Dietary Restrictions</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                    </select>
+                    <br><br>
+                </form>
+
+                <form action="/action_page.php">
+                    <select name="Ingredients" id="Ingredients">
+                    <option value="Ingredients">Ingredients</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                    </select>
+                    <br><br>
+                </form>
+            </div>
+
+            <div class="recipe-catalog">
+                <div class="recipe"></div>
+                <!-- <img src="https://via.placeholder.com/100" alt="Recipe Icon" class="recipe-icon"> -->
+                <!-- <p class="recipe-title"> </p> -->
+                <p class="recipe-description"></p>
+                <div class="recipe"></div>
+                <div class="recipe"></div>
+
+                
+            </div>
         </div>
     </div>
 </html>
